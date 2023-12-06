@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    height: auto;
+    width: 100vw;
+    font-family: "Open sans";
+    padding-top: 10px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.words{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    text-align: justify;
+    width: 100%;
+}
+.words p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.words span{
+    opacity: 0.4;
+    font-weight: normal;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+@media screen and (max-width: 300px) {
+    .socials {
+        display: block; /* Change display to block for smaller screens */
+        text-align: center; /* Center-align the items */
+    }
+    .socials li {
+        margin: 10px 0; /* Adjust margin for vertical spacing */
+    }
+}
+.socials a{
+    color: #fff;
+}
+.footer-bottom{
+    background: black;
+    width: 100vw;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
